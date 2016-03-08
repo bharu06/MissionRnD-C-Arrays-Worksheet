@@ -26,15 +26,15 @@ void * sortedArrayPositionsChange(int *Arr, int len)
 			{
 				low++;
 			}
-			else if (Arr[high]>Arr[high])
+			else if (Arr[high]>Arr[high-1])
 			{
 				high--;
 			}
-			else{}
+			else{ break; }
 		}
 		temp = Arr[low];
 		Arr[low] = Arr[high];
-		Arr[high] = Arr[low];
+		Arr[high] = temp;
 
 
 	}

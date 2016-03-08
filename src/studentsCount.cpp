@@ -23,7 +23,7 @@ void * studentsCount(int *Arr, int len, int score, int *lessCount, int *moreCoun
 	{
 		return(NULL);
 	}
-	else
+		else
 	{
 		while (low<=high)
 		{
@@ -39,11 +39,11 @@ void * studentsCount(int *Arr, int len, int score, int *lessCount, int *moreCoun
 	}
 	
 	
-		
+	return(NULL);
 
 }
 
-void * studentsCount_way2(int *Arr, int len, int score, int *lessCount, int *moreCount)
+/*void * studentsCount_way2(int *Arr, int len, int score, int *lessCount, int *moreCount)
 {
 	if (Arr == NULL || len < 0)
 		return(NULL);
@@ -98,4 +98,4 @@ void * studentsCount_way2(int *Arr, int len, int score, int *lessCount, int *mor
 
 
 
-}
+}*/
