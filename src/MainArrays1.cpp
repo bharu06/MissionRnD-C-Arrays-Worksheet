@@ -27,10 +27,10 @@ int main(){
 	//int *newarray=sortedArrayInsertNumber(arr, 3, 3);
 	//printf("%d %d %d %d", newarray[0], newarray[1], newarray[2],newarray[3]);
 	struct student students[3] = { { "stud1", 60 }, { "stud2", 70 }, { "stud3", 50 } };
-	struct student **result = topKStudents(students, 3, 3);
+	struct student **result = topKStudents(students, 3, 2);
 	for (i = 0; i < 3; i++)
 	{
-		printf("%d  ", result[i]->score);
+		printf("%d  ",result[i]->score);
 	}
 	return 0;
 }
